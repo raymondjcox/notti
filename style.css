@@ -1,0 +1,112 @@
+body {
+  color: white;
+  font-family: 'Open Sans';
+  background: url('images/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.headline-copy {
+  font-size: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.top-logo {
+  background: url('images/logo.png') no-repeat;
+  height: 140px;
+  margin-left: 28%;
+  margin-top: 30px;
+}
+
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-info {
+  margin-top: 40px;
+}
+
+.contact-info .form-control {
+  box-sizing: border-box;
+  padding-left: 10px;
+  font-size: 16px;
+  height: 50px;
+  width: 280px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 2px;
+  border: none;
+}
+
+.contact-info .submit {
+  background-color: transparent;
+  border-radius: 2px;
+  font-size: 22px;
+  border: 2px solid white;
+  color: white;
+  opacity: .8;
+  width: 135px;
+  height: 50px;
+  margin-top: 25px;
+  margin-left: 41%;
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.contact-info .email {
+  margin-top: 15px;
+}
+
+.body-copy {
+  text-align: center;
+  font-size: 18px;
+  opacity: .8;
+  line-height: 30px;
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  .headline-copy {
+    font-size: 70px;
+    line-height: 95px;
+  }
+
+  .top-logo {
+    height: 140px;
+  }
+
+  .contact-info {
+    margin-top: 55px;
+  }
+
+  .contact-info .submit {
+    border: 4px solid white;
+    width: 330px;
+    height: 115px;
+    font-size: 45px;
+    margin-left: 30%;
+    margin-top: 55px;
+  }
+
+  .contact-info .form-control {
+    padding-left: 20px;
+    width: 100%;
+    height: 125px;
+    font-size: 40px;
+  }
+
+  .contact-info .email {
+    margin-top: 35px;
+  }
+
+  .body-copy {
+    font-size: 35px;
+    line-height: 50px;
+  }
+}
