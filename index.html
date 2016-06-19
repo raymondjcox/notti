@@ -5,18 +5,25 @@
     <title>Get Notti</title>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='./style.css' rel='stylesheet'>
+
+  <style type="text/css">
+    #mc_embed_signup{clear:left; font:14px Helvetica,Arial,sans-serif; }
+  </style>
   </head>
   <body>
     <div class='container'>
       <div class='top-logo' ></div>
       <h1 class='headline-copy'><div>Headline copy will</div> <div>go right here</div></h1>
       <p class='body-copy'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor lacus turpis, sed dignissim tortor convallis quis. Nulla lacinia nunc in sagittis. Fusce ut sapien amet lorem tristique elementum nec ut ex. Suspendisse id consectetur augue. Donec urna nec risus dignissim interdum. Nullam ac risus metus. Etiam nec dignissim nisi. </p>
-      <div class='contact-info'>
-        <input type='text' class='form-control zip' placeholder='Zip code'>
-        <input type='text' class='form-control email' placeholder='Email address'>
-        <button type='submit' class='btn btn-default submit'>Submit</button>
-      </div>
+      <form action="https://getnotti.us13.list-manage.com/subscribe/post?u=8cd044796fb985fa9a8c38f9e&amp;id=eee7a21ad9" method="post" target="_blank">
+        <div class='contact-info'>
+          <input type='number' class='form-control zip' placeholder='Zip code' inputmode="numeric" maxlength=6 name="ZIP">
+          <input type='email' class='form-control email' placeholder='Email address' name="EMAIL">
+          <button type='submit' class='btn submit disabled'>Submit</button>
+        </div>
+      </form>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js'></script>
+    <script src='js/main.js'></script>
   </body>
 </html>

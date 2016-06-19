@@ -45,16 +45,29 @@ body {
   background-color: transparent;
   border-radius: 2px;
   font-size: 22px;
-  border: 2px solid white;
-  color: white;
+  border: 2px solid gray;
+  color: gray;
   opacity: .8;
   width: 135px;
   height: 50px;
   margin-top: 25px;
   margin-left: 41%;
   text-decoration: none;
-  cursor: pointer;
+  cursor: default;
   box-shadow: none;
+}
+
+.contact-info .submit.enabled {
+  color: white;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.contact-info .submit.success {
+  color: black;
+  background-color: #46CD65;
+  border: 2px solid #46CD65;
+  cursor: default;
 }
 
 .contact-info .email {
